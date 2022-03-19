@@ -1,0 +1,13 @@
+#Second Python script. Just tells you if your number is even or odd
+#Still nothing interesting except I learned that modulus is very useful
+#Obviously if any number divided by two has a remainder of 0 it is even
+
+num = input("Please feed me a number")
+
+if int(num)%2 == 0:
+    print("Your number is even!")
+else:
+    print("Your number is odd!")
+    
+    
+    
